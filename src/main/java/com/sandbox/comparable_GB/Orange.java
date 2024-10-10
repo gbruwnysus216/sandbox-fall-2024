@@ -1,6 +1,6 @@
 package com.sandbox.comparable_GB;
 
-public class Orange extends org.example.sandbox.comparable.Fruit {
+public class Orange extends Fruit {
 
     public Orange(String name, String color, String size, int qty) {
         super(name, color, size, qty);
@@ -12,7 +12,7 @@ public class Orange extends org.example.sandbox.comparable.Fruit {
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder("Orange{");
-        sb.append("type='").append(name).append('\'');
+        sb.append("Name='").append(name).append('\'');
         sb.append(", color='").append(color).append('\'');
         sb.append(", size='").append(size).append('\'');
         sb.append(", qty=").append(qty);
